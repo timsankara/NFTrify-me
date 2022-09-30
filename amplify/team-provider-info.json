@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nftifyme-dev-115854-authRole",
+      "UnauthRoleArn": "arn:aws:iam::956840405275:role/amplify-nftifyme-dev-115854-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::956840405275:role/amplify-nftifyme-dev-115854-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-nftifyme-dev-115854-deployment",
+      "UnauthRoleName": "amplify-nftifyme-dev-115854-unauthRole",
+      "StackName": "amplify-nftifyme-dev-115854",
+      "StackId": "arn:aws:cloudformation:eu-west-1:956840405275:stack/amplify-nftifyme-dev-115854/1f8c4410-409e-11ed-82dd-0210ce5e56cf",
+      "AmplifyAppId": "dqvaz9gcgk0cj"
+    }
+  }
+}

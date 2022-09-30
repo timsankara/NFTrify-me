@@ -1,0 +1,35 @@
+.App {
+  /* background: url("./meteor.svg"); */
+  /* background: url("https://images.unsplash.com/photo-1639322537138-5e513100b36e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3264&q=80"); */
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 100vh;
+}
+
+.App-overlay {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  left: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 5rem 2rem;
+  }
+}
